@@ -178,6 +178,15 @@ p a {
 	
 	border-radius: 4px;
 }
+.btn:active, 
+.btn:focus,
+.btn:hover {
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
 .btn--main {
 	color: #ffffff;
 	
