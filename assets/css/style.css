@@ -574,7 +574,7 @@ p a {
 		height: 90px;
 	}
 	.hero.home {
-		background: #f4f5f6 url(../images/hero--home__bg__desktop.jpg) no-repeat right center;
+		background: #f4f5f6 url(../images/hero--home__bg__desktop.jpg) no-repeat right -150px center;
 	}
 	.hero.tech {
 		background: #f4f5f6 url(../images/hero--tech__bg__desktop.jpg) no-repeat right center;
@@ -587,6 +587,12 @@ p a {
 	}
 	.hero--vert p {
 		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.hero.home {
+		background: #f4f5f6 url(../images/hero--home__bg__desktop.jpg) no-repeat right -50px center;
 	}
 }
 
