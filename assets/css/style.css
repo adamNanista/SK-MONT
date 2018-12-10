@@ -190,7 +190,7 @@ p a {
 .btn--main {
 	color: #ffffff;
 	
-	background: rgb(62,95,154); /* Old browsers */
+	background: rgb(62,95,154); 
 	background: -moz-linear-gradient(top, rgba(62,95,154,1) 0%, rgba(69,105,164,1) 50%, rgba(62,95,154,1) 100%); 
 	background: -webkit-linear-gradient(top, rgba(62,95,154,1) 0%,rgba(69,105,164,1) 50%,rgba(62,95,154,1) 100%); 
 	background: linear-gradient(to bottom, rgba(62,95,154,1) 0%,rgba(69,105,164,1) 50%,rgba(62,95,154,1) 100%); 
@@ -533,6 +533,9 @@ p a {
 	.hero.home {
 		background: #f4f5f6 url(../images/hero--home__bg__tablet.jpg) no-repeat right center;
 	}
+	.hero.tech {
+		background: #f4f5f6 url(../images/hero--tech__bg__tablet.jpg) no-repeat right center;
+	}
 	.hero__inner {
 		min-height: 300px;
 		padding: 0;
@@ -572,6 +575,9 @@ p a {
 	}
 	.hero.home {
 		background: #f4f5f6 url(../images/hero--home__bg__desktop.jpg) no-repeat right center;
+	}
+	.hero.tech {
+		background: #f4f5f6 url(../images/hero--tech__bg__desktop.jpg) no-repeat right center;
 	}
 	.hero__inner {
 		min-height: 460px;
@@ -1331,7 +1337,7 @@ p a {
 		background-size: 100% 184px;
 	}
 	.decor__inner {
-		max-width: 840px;
+		max-width: 940px;
 	}
 	.decor__freza {
 		margin-bottom: 30px;
@@ -1341,16 +1347,13 @@ p a {
 	.decor__icons {
 		position: absolute;
 		right: 0;
-		top: 61px;
-		width: 380px;
+		top: 23px;
+		width: 480px;
 	}
 	.decor--item {
 		display: block;
 		padding: 15px 0 15px 70px;
 		width: 100%;
-	}
-	.decor--item:nth-of-type(2) {
-		display: none;
 	}
 	.decor--icon {
 		left: 0;
@@ -1364,6 +1367,24 @@ p a {
 		max-width: 100%;
 		
 		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.decor__icons {
+		top: 52px;
+	}
+	.decor--item {
+		padding: 5px 0 5px 47px;
+	}
+	.decor--icon {
+		height: 40px;
+		margin: -20px 0 0;
+		padding: 11px 0 0;
+		width: 40px;
+	}
+	.decor--img {
+		max-width: 20px;
 	}
 }
 
@@ -1638,7 +1659,7 @@ p a {
 	}
 	
 	.decor__icons {
-		top: 143px;
+		top: 90px;
 		width: 420px;
 	}
 	.decor--item {
@@ -1767,6 +1788,10 @@ p a {
 	font-weight: 900;
 	line-height: 52px;
 	letter-spacing: -0.05em;
+}
+.icons--text.smaller {
+	font-size: 28px;
+	line-height: 60px;
 }
 .icons--unit {
 	bottom: 23px;
